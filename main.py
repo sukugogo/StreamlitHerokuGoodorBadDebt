@@ -96,7 +96,6 @@ def fn_sidebar_widget():
 
 
 if __name__ == '__main__':
-    app.listen(process.env.PORT)
     st.set_page_config(layout="wide", page_title="Good/Bad Debt Calculator")
     top_padding = 0
     padding = 5
